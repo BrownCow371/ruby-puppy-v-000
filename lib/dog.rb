@@ -13,4 +13,8 @@ attr_accessor :name
     @@all=[]
   end
 
+  def self.all
+    @@all
+  end
+
 end
